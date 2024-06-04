@@ -18,24 +18,25 @@ body{
 }
 
 .heart {
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 150px;
     background-color:red;
     position: relative;
     transform: rotate(45deg);
     box-shadow: -20px  20px 150px #f20044;
     animation: palpitar 0.5s linear infinite alternate;
+    
 }
 .contenido {
      position: fixed;
      margin-bottom: 50px;
      text-align: center;
+     
 }
 h1 {
-    color: white;
+    color: white
 }
-h2 { 
-    color: white;
+h2 { color : white
 }
 
 @keyframes palpitar{
@@ -52,8 +53,8 @@ h2 {
 .heart::before{
     content: "";
     position: absolute;
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 150px;
     background: red;
     top: -50%;
     border-radius: 50%;
@@ -62,17 +63,21 @@ h2 {
 .heart::after{
     content: "";
     position: absolute;
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 150px;
     background: red;
     right: 50%;
     border-radius: 50%;
     box-shadow: 20px  20px 150px #f20044;
 }
+
 </style>
 <body>
     <div class="heart"></div>
-    <div class="contenido"><h1>Te Amo</h1><h2>Mildred</h2></div>
+
+    <div class="contenido"><h1>Te Amo</h1><h2>Mildred Valdez</h2></div>
+
+  
+      
 </body>
 </html>
-
